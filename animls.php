@@ -8,7 +8,7 @@ abstract class animal{
     // сколько дает
     public abstract function getProduct();
     // вернуть
-    public function getNameOfClass()
+    public function getAnimalType()
     {
         return static::class;
     }
